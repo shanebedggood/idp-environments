@@ -1,0 +1,10 @@
+apiVersion: internal.platform.io/v1alpha1
+kind: AppEnvironment
+metadata:
+  name: idp-quarkus-hello
+spec:
+  size: small
+  team: idp-quarkus-hello
+  environment: dev
+  ingressDomain: dev.internal.example.com
+  appRepoURL: https://github.com/shanebedggood/idp-quarkus-hello
