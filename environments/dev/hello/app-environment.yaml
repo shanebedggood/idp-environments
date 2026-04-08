@@ -6,5 +6,5 @@ spec:
   size: small
   team: idp-quarkus-hello
   environment: dev
-  ingressDomain: dev.internal.example.com
+  ingressDomain: 127.0.0.1.sslip.io
   appRepoURL: https://github.com/shanebedggood/idp-quarkus-hello
